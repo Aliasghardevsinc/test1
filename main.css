@@ -1,25 +1,22 @@
 *{
     margin: 0;
 }
-
 body{
     font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
 }
-
 a{
     /* float: right; */
     color:white;
     padding-left: 20px;
     font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-
 .listitems{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-
 ul {
     display: flex;
     /* display: flex; */
@@ -28,7 +25,10 @@ ul {
     padding: 0;
     overflow: hidden;
   }
-  
+  input{
+    outline: none;
+    border: none;
+  }
   /* li {
     float: left;
   } */
@@ -41,35 +41,58 @@ ul {
     text-decoration: none;
   }
   
-
+  
 .topnav{
     padding-top: 20px;
-    height: 400px;
-    position:fixed;
+    height: 600px;
     width:100%;
     background-color:#0e3b19;
 }
-
 .fiverlogo{
     padding-left: 20px;
     height: 27px;
     color: white;
     width: 87px;
 }
-
 .height{
     height: 100px;
 }
-
 .mainheading{
+    padding-top: 200px;
     padding-left: 20px;
     color: white;
-    font-size: 60px;
-    
+    font-size: 50px;
     font-weight: 500;
-
+}
+.fa-search{
+    color:grey;
+    background-color: white;
+    border-radius: 0%;
+    border-color: white;
+    border-style: none;
+    border: 0;
+}
+.popular{
+    color: white;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.height-box{
+    height: 25px;
 }
 
+
+.search-box{
+    display: flex;
+    /* padding-left: 20px; */
+    /* padding-top: 30px; */
+    background-color: white;
+    width: fit-content;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .join-button{
         height: 40px;
         width: 60px;
@@ -82,14 +105,111 @@ ul {
         border-radius: 2px;      
         color: white;
 }
-
+.search-button{
+    height: auto;
+    width: 100px;
+    font-weight: 300;
+    border: 1px;
+    border-radius: 0%;
+    border-color: transparent;
+    background:green;
+    box-shadow: none;
+    border-style: solid;
+    border-radius: 2px;      
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+.input-box{
+    width: 400px;
+    /* padding-left: 20px ; */
+}
 .italic{
     font-family:Macan ;
 }
-
 .logo-nav {
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
     display: flex;
+}
+.popular-bar{
+    display: flex;
+    padding-top: 20px;
+}
+.webdesign{
+    padding-top: 0px;
+    padding-left: 10px;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 40px;
+    border-style: solid;
+    line-height: 24px;
+    border-width: 1px;
+    font-weight: 500;
+}
+/* no use */
+.wordpress{
+    padding-top: 0px;
+    padding-left: 10px;
+    background-color: blueviolet;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 40px;
+    border-style: solid;
+    line-height: 24px;
+    border-width: 1px;
+    font-weight: 500;
+}
+/* no use */
+.logodesign{
+    padding-top: 0px;
+    padding-left: 10px;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 40px;
+    border-style: solid;
+    line-height: 24px;
+    border-width: 1px;
+    font-weight: 500;
+}
+/* no use */
+.videoediting{
+    padding-top: 0px;
+    padding-left: 10px;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 40px;
+    border-style: solid;
+    line-height: 24px;
+    border-width: 1px;
+    font-weight: 500;
+}
+.profileimage{
+    height: 500px;
+    width: 500px;
+}
+/* new */
+.popular-li{
+    margin-right: .5rem;
+}
+.image-containor{
+    position: absolute;
+    top: 15.3%;
+    right: 5%;
+}
+/*  */
+.center-icon{
+    padding-left: 20px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.center-icon i{
+    
+    /* height: 50px;
+    width: 50px; */
+    font-size: 2rem;
 }
